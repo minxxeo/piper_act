@@ -1,0 +1,394 @@
+{
+  "created_utc": "2026-10-06T08:33:49.832845+00:00",
+  "source_dataset": "/home/rise/piper_il/dataset",
+  "destination_dataset": "/home/rise/piper_il/dataset_delta",
+  "action_spec": {
+    "schema_version": 4,
+    "action_representation": "follower_chunk_start_delta",
+    "stored_action_representation": "next_follower_qpos_absolute",
+    "action_source": "observations/qpos",
+    "absolute_action_formula": "action[t] = follower_qpos[t + 1]",
+    "delta_reference": "fixed_chunk_start_follower_qpos",
+    "delta_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "gripper_mode": "delta",
+    "action_time_offset_frames": 1,
+    "chunk_formula": "delta[t, k] = follower_qpos[t + k + 1] - follower_qpos[t]",
+    "execution_formula": "absolute_target[k] = chunk_start_follower_qpos + predicted_delta[k]",
+    "tail_policy": "Exclude final observation as a start; mask unavailable future targets",
+    "units": "Original dataset units; no time division or unit conversion"
+  },
+  "episodes": [
+    {
+      "file": "episode_0.hdf5",
+      "frames": 502,
+      "source_sha256": "c288cde30d019da40baac1f1a8472604ba2a9c8beb56161f174ab75475966a77",
+      "valid_starts": 501
+    },
+    {
+      "file": "episode_1.hdf5",
+      "frames": 397,
+      "source_sha256": "f9cb7de6864f18c908d3037c6748dd014e75c425763e24c371a67708abd1ee15",
+      "valid_starts": 396
+    },
+    {
+      "file": "episode_2.hdf5",
+      "frames": 371,
+      "source_sha256": "1d881b071b8a90d3fa658951b39dd9d471df935de821dec51af73d533cef0457",
+      "valid_starts": 370
+    },
+    {
+      "file": "episode_3.hdf5",
+      "frames": 445,
+      "source_sha256": "4a737d028c83a520f71b592db893793e796ee41e3d5e822c67799732be846c47",
+      "valid_starts": 444
+    },
+    {
+      "file": "episode_4.hdf5",
+      "frames": 351,
+      "source_sha256": "7a746494356418c412e06ef6ec77f9c5adf7ca3dcf8a5cbb5152f5138c2a9c6e",
+      "valid_starts": 350
+    },
+    {
+      "file": "episode_5.hdf5",
+      "frames": 366,
+      "source_sha256": "938af7868c1643f19543a75d5817828506486d4c489763c035d20c80fedeb2af",
+      "valid_starts": 365
+    },
+    {
+      "file": "episode_6.hdf5",
+      "frames": 410,
+      "source_sha256": "f276e331b35cc0cd4348ef018e0ead201a8a64010f34dce53ff5e6e070b17996",
+      "valid_starts": 409
+    },
+    {
+      "file": "episode_7.hdf5",
+      "frames": 392,
+      "source_sha256": "93d7e1041340437f914434d9478bd062e62f05c00ae52c92c2ea3f4e7a143676",
+      "valid_starts": 391
+    },
+    {
+      "file": "episode_8.hdf5",
+      "frames": 354,
+      "source_sha256": "b3336ba87f0461e1381fd354007ee523ea292bcb92419918e94192637a6bc32a",
+      "valid_starts": 353
+    },
+    {
+      "file": "episode_9.hdf5",
+      "frames": 362,
+      "source_sha256": "87094ed9174c7b07bb9b6bacd65b26eddcdbb3e10a523783f0b812ad8ac232b9",
+      "valid_starts": 361
+    },
+    {
+      "file": "episode_10.hdf5",
+      "frames": 347,
+      "source_sha256": "b58cf4198c024d6cb6a71c1934244538e663b451ef3b0fa1f3820ff83e8cf26a",
+      "valid_starts": 346
+    },
+    {
+      "file": "episode_11.hdf5",
+      "frames": 351,
+      "source_sha256": "cbce8afd65da03ece3cdb8112accfca76c3160749a9baf224c380d6ea0142bf3",
+      "valid_starts": 350
+    },
+    {
+      "file": "episode_12.hdf5",
+      "frames": 343,
+      "source_sha256": "33ff6b1b5598f188abca0b80a1d9433a57fb2ad54ac29c21b539e438c73a977a",
+      "valid_starts": 342
+    },
+    {
+      "file": "episode_13.hdf5",
+      "frames": 344,
+      "source_sha256": "59efe5d21b9750aead7cfdfba4881464d6ad7b428fb821a236b88e15502436a5",
+      "valid_starts": 343
+    },
+    {
+      "file": "episode_14.hdf5",
+      "frames": 335,
+      "source_sha256": "8f4a3a855f31f110de6a362ec8e04b4c183ea6c3f89216d5097e42cf760d6b82",
+      "valid_starts": 334
+    },
+    {
+      "file": "episode_15.hdf5",
+      "frames": 428,
+      "source_sha256": "37262b87bd08df06dc404b59907d003fd578ba99a740c8e205e8df63d2202dd7",
+      "valid_starts": 427
+    },
+    {
+      "file": "episode_16.hdf5",
+      "frames": 318,
+      "source_sha256": "b30a4456702075605eb52507f3b944c35e4fe731bcfbf9cd8760a693ce438ad9",
+      "valid_starts": 317
+    },
+    {
+      "file": "episode_17.hdf5",
+      "frames": 362,
+      "source_sha256": "cbf30f7663eef8a1e6694c01ea56b60bcd4f59b24335f3b03a22c79baeee22c7",
+      "valid_starts": 361
+    },
+    {
+      "file": "episode_18.hdf5",
+      "frames": 396,
+      "source_sha256": "05dd8d163cd904b6605dc37fe1953a779f5f886cf94141fd6ae3edceed9d0cd4",
+      "valid_starts": 395
+    },
+    {
+      "file": "episode_19.hdf5",
+      "frames": 368,
+      "source_sha256": "c43aa785acff1a16d62963ed8637aa2360d44919c0c9cfd71ad164f6f18ef3e6",
+      "valid_starts": 367
+    },
+    {
+      "file": "episode_20.hdf5",
+      "frames": 351,
+      "source_sha256": "e0cd7604510f8afc2a65a36e8a59e9b7392555ed8c980ca8872b47dcd979f112",
+      "valid_starts": 350
+    },
+    {
+      "file": "episode_21.hdf5",
+      "frames": 328,
+      "source_sha256": "d83a803d7c4df7c0b2819ea4c7ee9619b0e27d05f39f4afffd1a7ae281273ab5",
+      "valid_starts": 327
+    },
+    {
+      "file": "episode_22.hdf5",
+      "frames": 412,
+      "source_sha256": "f4ed5d94ad982d4a857adfebd1486eddcd153f12b502d2794545f9745cd7bb29",
+      "valid_starts": 411
+    },
+    {
+      "file": "episode_23.hdf5",
+      "frames": 406,
+      "source_sha256": "a320d2c13dc49fad0defee9ea950014ac0722c48dc2b171f51f3d2a3cf3070dd",
+      "valid_starts": 405
+    },
+    {
+      "file": "episode_24.hdf5",
+      "frames": 365,
+      "source_sha256": "156c0f83ee977e32c42be0e307a21d920768a9221a02359081860a0159e2379b",
+      "valid_starts": 364
+    },
+    {
+      "file": "episode_25.hdf5",
+      "frames": 388,
+      "source_sha256": "ee99ec8d3a0092d10fd16b019720000ef4f5d7d02a145e221c5d366871b5cb67",
+      "valid_starts": 387
+    },
+    {
+      "file": "episode_26.hdf5",
+      "frames": 370,
+      "source_sha256": "4c407baeea9ff7bff412d7189dde31c5e9a9d2ec2736b45bcd99a16b032a5719",
+      "valid_starts": 369
+    },
+    {
+      "file": "episode_27.hdf5",
+      "frames": 360,
+      "source_sha256": "e93b2ac897aa4abeeba60ea10ee95e5c34bdad655d15acf24159ae51241585e9",
+      "valid_starts": 359
+    },
+    {
+      "file": "episode_28.hdf5",
+      "frames": 389,
+      "source_sha256": "460602a06835646055cd36363e97e40c3b8400f223b66424ba4c380415f13eb9",
+      "valid_starts": 388
+    },
+    {
+      "file": "episode_29.hdf5",
+      "frames": 363,
+      "source_sha256": "10c65df794194a758b69f6fbb4713deee57f74a634200274d2e00ab7c8886891",
+      "valid_starts": 362
+    },
+    {
+      "file": "episode_30.hdf5",
+      "frames": 437,
+      "source_sha256": "59b1aba3c989998b75430831a744f3b80993003bb39f65457d57a9c2fd033186",
+      "valid_starts": 436
+    },
+    {
+      "file": "episode_31.hdf5",
+      "frames": 369,
+      "source_sha256": "ccec4b367225da249f9790b7cd759ff6031116e747d1b36c54836c8f72cc6a62",
+      "valid_starts": 368
+    },
+    {
+      "file": "episode_32.hdf5",
+      "frames": 359,
+      "source_sha256": "97274dd1b675d5013d331136f643d8cdc8379b6d3a53498b2bf0141921a22cf4",
+      "valid_starts": 358
+    },
+    {
+      "file": "episode_33.hdf5",
+      "frames": 458,
+      "source_sha256": "3461ca18f7c66f33eff9255d0dc9e85d9ea54a217d5ab4d2ee0c6db9cd1291ad",
+      "valid_starts": 457
+    },
+    {
+      "file": "episode_34.hdf5",
+      "frames": 408,
+      "source_sha256": "796562ddc6b67d62edcacd708b0009c81e35de43d90df2bfb07a04321f69688c",
+      "valid_starts": 407
+    },
+    {
+      "file": "episode_35.hdf5",
+      "frames": 415,
+      "source_sha256": "1f0f4420c12ec6010f86128a11f2cfc533bd4db1ee6ed66689395c081592dd50",
+      "valid_starts": 414
+    },
+    {
+      "file": "episode_36.hdf5",
+      "frames": 347,
+      "source_sha256": "a293557eea67bd8e1824056ba99888938983c01d817f982ad7872ddc14600043",
+      "valid_starts": 346
+    },
+    {
+      "file": "episode_37.hdf5",
+      "frames": 396,
+      "source_sha256": "81d1316025fb47dddf460a0e4cc48519099c8a6315662380c49401f4f41f7be3",
+      "valid_starts": 395
+    },
+    {
+      "file": "episode_38.hdf5",
+      "frames": 366,
+      "source_sha256": "eeb43202ae6968ccee6f6b24d3346a8faa8025393fef7a896a3bebc99de6b172",
+      "valid_starts": 365
+    },
+    {
+      "file": "episode_39.hdf5",
+      "frames": 362,
+      "source_sha256": "5aae05ae1c22de86e8524cc2bffe0e4b840ebd60fa71d1ffd59faffde1931bae",
+      "valid_starts": 361
+    },
+    {
+      "file": "episode_40.hdf5",
+      "frames": 358,
+      "source_sha256": "c3a2002a99126b4cb45a07f2f69cab0845b5b16bc33dba058b8dfdc614692f3a",
+      "valid_starts": 357
+    },
+    {
+      "file": "episode_41.hdf5",
+      "frames": 370,
+      "source_sha256": "f453d5afb495f91ca73e2efea303d3378e7f1521ac1abd7a53a1c17b59b080be",
+      "valid_starts": 369
+    },
+    {
+      "file": "episode_42.hdf5",
+      "frames": 360,
+      "source_sha256": "18165c4382d2eba8f10465b3c630ced44c88a65de7c73c9e250706ca2e7e6402",
+      "valid_starts": 359
+    },
+    {
+      "file": "episode_43.hdf5",
+      "frames": 362,
+      "source_sha256": "f739b723e509e620279e556cb51ad5130ba9e0401227c65b23c42383be2c7209",
+      "valid_starts": 361
+    },
+    {
+      "file": "episode_44.hdf5",
+      "frames": 387,
+      "source_sha256": "497625f1bf084ac3160e922f46db84a30c4cb33b4ebf41ae569a5033554b1719",
+      "valid_starts": 386
+    },
+    {
+      "file": "episode_45.hdf5",
+      "frames": 400,
+      "source_sha256": "e59fea547de6aad1ff066f73185ab8125062b9e9096d2ad2e8b90a12af57294a",
+      "valid_starts": 399
+    },
+    {
+      "file": "episode_46.hdf5",
+      "frames": 321,
+      "source_sha256": "f23c016b7190ccb1e4ee190a29cc7ca4eede23ed45a03c56417b0aa92fbd2726",
+      "valid_starts": 320
+    },
+    {
+      "file": "episode_47.hdf5",
+      "frames": 349,
+      "source_sha256": "34ceba3fbdfaa82fa21003265f0ef07f47d9d203426f19565277cbd6da86b737",
+      "valid_starts": 348
+    },
+    {
+      "file": "episode_48.hdf5",
+      "frames": 387,
+      "source_sha256": "38293ef3fc0236e930641f1078990d2ae6067a2117cb053834b5d1ce584fad8f",
+      "valid_starts": 386
+    },
+    {
+      "file": "episode_49.hdf5",
+      "frames": 341,
+      "source_sha256": "553c7ec1f113c20dfa61c5d110611aba480595078ec01e58e7dd3ff2e5e30770",
+      "valid_starts": 340
+    },
+    {
+      "file": "episode_50.hdf5",
+      "frames": 351,
+      "source_sha256": "6299383b1601bbf273418a5ffcbfc5893880f1cf33f411c1234bae423c0a7699",
+      "valid_starts": 350
+    },
+    {
+      "file": "episode_51.hdf5",
+      "frames": 266,
+      "source_sha256": "1b13e82d19d56d2eedcd7fade911932ca4e8fb90d3d342b97e5352286faa9529",
+      "valid_starts": 265
+    },
+    {
+      "file": "episode_52.hdf5",
+      "frames": 306,
+      "source_sha256": "db5d7c5a478838cea90a693de23a7336fb955d79912e28e461734f21a31cc01d",
+      "valid_starts": 305
+    },
+    {
+      "file": "episode_53.hdf5",
+      "frames": 237,
+      "source_sha256": "27d1804aad745a78a754407331a2ba3af5e0172b7e796eeefaa16b2fc840587f",
+      "valid_starts": 236
+    },
+    {
+      "file": "episode_54.hdf5",
+      "frames": 316,
+      "source_sha256": "b3e8401095d5628edf63036f198fcedbc2fec3f5962be28b035df4ec65d9d582",
+      "valid_starts": 315
+    },
+    {
+      "file": "episode_55.hdf5",
+      "frames": 289,
+      "source_sha256": "7f484ac6fc9f14eeb38b30ae2b686fa25bfa0a3d117e0a451057acc07355cceb",
+      "valid_starts": 288
+    },
+    {
+      "file": "episode_56.hdf5",
+      "frames": 320,
+      "source_sha256": "2ae5e450c7e34ea30f043ec8b8194d3feda8a00e0294e638a4d3c4d341e9ab10",
+      "valid_starts": 319
+    },
+    {
+      "file": "episode_57.hdf5",
+      "frames": 307,
+      "source_sha256": "848d4fcae139fbe878bbfd24ed8f3ee1128153900615da48b4b977d7c130f906",
+      "valid_starts": 306
+    },
+    {
+      "file": "episode_58.hdf5",
+      "frames": 327,
+      "source_sha256": "b480f5d385080a29af39e8129dc2e96c3c55e8ddd51f7f77ea503693082c35c5",
+      "valid_starts": 326
+    },
+    {
+      "file": "episode_59.hdf5",
+      "frames": 340,
+      "source_sha256": "4ca4843d74589632116f3539d5e03aca7b10247e97edbd8132dc11f8ae224207",
+      "valid_starts": 339
+    }
+  ],
+  "storage": "Independent copies; observations/images/timestamps unchanged",
+  "num_episodes": 60,
+  "num_frames": 21885,
+  "num_valid_starts": 21825
+}
