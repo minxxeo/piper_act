@@ -1,0 +1,738 @@
+{
+  "folder": "dataset_delta",
+  "release": "artifacts-v1",
+  "archives": [
+    {
+      "archive": "dataset_delta-delta_manifest.json.tar.gz",
+      "size": 4145,
+      "sha256": "f0da1b7b6f5bc7dc0a5d095bc211aa185af6c29f6b11937437ac1fb15d2c4a58",
+      "files": [
+        {
+          "path": "dataset_delta/delta_manifest.json",
+          "size": 12214,
+          "sha256": "0ce5a5e7af2e3bd9749fbbb24de48de41d9ad37108f583e39db39120d76d98d1"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_0.hdf5.tar.gz",
+      "size": 274435348,
+      "sha256": "1ad7244b5491789bab934d143ba1d485579f4b2c81797b8e62a2ea02c204eaec",
+      "files": [
+        {
+          "path": "dataset_delta/episode_0.hdf5",
+          "size": 613088916,
+          "sha256": "d5d32bc45d31a55a1ed84783cdcc47d07e54103f487cf7fae449a363a794307a"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_1.hdf5.tar.gz",
+      "size": 216077171,
+      "sha256": "230a5198212472d6049685eac33676ea77fb448b113eb8a964dd1bc8baa6df7b",
+      "files": [
+        {
+          "path": "dataset_delta/episode_1.hdf5",
+          "size": 484857036,
+          "sha256": "0e0c84a28fd75727ff5b2546cf70c8211cbc381e58048f6971c27c0837ff8954"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_10.hdf5.tar.gz",
+      "size": 185085827,
+      "sha256": "3892fe777a942561693bb0588b7307c6faf16f5fc9f315e05be450ff3490ba37",
+      "files": [
+        {
+          "path": "dataset_delta/episode_10.hdf5",
+          "size": 423794236,
+          "sha256": "a02d6aaa9564ae20392e091561207f64d2bab932130ec3489934b0ae3aa2d4f7"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_11.hdf5.tar.gz",
+      "size": 197152594,
+      "sha256": "5c781255a6366f799a7e63d6d4c9bd4e4289dc9d0b8d2d6c1e54d6a2a0d3fa54",
+      "files": [
+        {
+          "path": "dataset_delta/episode_11.hdf5",
+          "size": 428679260,
+          "sha256": "e46b5b8ecc96d42bbea5ffa90c21a38cc67f29e547d0f5226c53a9daf228f79b"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_12.hdf5.tar.gz",
+      "size": 190515267,
+      "sha256": "b99e08b4416c4bf3866a85b78ed402e83bbf5394f43c46ca1ddf2f3fde5e4e68",
+      "files": [
+        {
+          "path": "dataset_delta/episode_12.hdf5",
+          "size": 418909212,
+          "sha256": "ba591eaa18b17cc17f7ad07fd9c613f078ef3e56ea45282cd0ac0b53b1858262"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_13.hdf5.tar.gz",
+      "size": 189675270,
+      "sha256": "76ea3263e1271b8cf8c497510d8cbdb095549299881f2e6e3af9c41776aa0dd4",
+      "files": [
+        {
+          "path": "dataset_delta/episode_13.hdf5",
+          "size": 420130468,
+          "sha256": "21e3fa3cc6ca3285a57d0855b9b402bf55a437e3b24d3f25e066e776a9c4a2d9"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_14.hdf5.tar.gz",
+      "size": 186724254,
+      "sha256": "e6442cd1b1032b410ce4679e98f5a52ac05ffe385fdc80891284043ae823aeec",
+      "files": [
+        {
+          "path": "dataset_delta/episode_14.hdf5",
+          "size": 409139164,
+          "sha256": "dbd2c6c1b6c9522c8749b1879df056ee3d7487da443a32bed231405d31740e65"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_15.hdf5.tar.gz",
+      "size": 235065622,
+      "sha256": "e1c0c78103f8ed5b14218fa321540aa62a386c4c658703e157c2e9225e8e5e8b",
+      "files": [
+        {
+          "path": "dataset_delta/episode_15.hdf5",
+          "size": 522715972,
+          "sha256": "5f34dbeddb5f2e5ed2b3f4339df0fd51824575a8f1e5e6bef317600dcc7d2e05"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_16.hdf5.tar.gz",
+      "size": 176034929,
+      "sha256": "e784a7f87b04333e06ae6f706794dfbc3b6f33bb28370fcc986f829f1ce6b1dc",
+      "files": [
+        {
+          "path": "dataset_delta/episode_16.hdf5",
+          "size": 388377812,
+          "sha256": "75c12dea41d120a847ad767c8251ca24c7f1041f361a3029351eedaebdbf0f57"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_17.hdf5.tar.gz",
+      "size": 200651533,
+      "sha256": "84cfe96f11d65fd1f59f8fbcd8e163de118a13fbb9decfdd2455550051b03028",
+      "files": [
+        {
+          "path": "dataset_delta/episode_17.hdf5",
+          "size": 442113076,
+          "sha256": "14b1401dbe7873b4b6d25c6f002a59e8006062dba6345786f15cd3d1a55815b6"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_18.hdf5.tar.gz",
+      "size": 219859488,
+      "sha256": "5ffbf78af565e48e2ab87c7250d55b39deb1def2f729e0b616cecfde4a2fc8f4",
+      "files": [
+        {
+          "path": "dataset_delta/episode_18.hdf5",
+          "size": 483635780,
+          "sha256": "c49292e5a431fc9d35ad839122c868662e25fe7be982014ea29d201ae278d26f"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_19.hdf5.tar.gz",
+      "size": 203466875,
+      "sha256": "c74a078ea1990ca9e8bf7be7ed24e28a707733fb98092702ed06340ab1b68295",
+      "files": [
+        {
+          "path": "dataset_delta/episode_19.hdf5",
+          "size": 449440612,
+          "sha256": "bbec5c66c5974003ff9865a36dbdce638e16ff26615c09b096b0aee9522fdb0a"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_2.hdf5.tar.gz",
+      "size": 204826917,
+      "sha256": "4d62e4871423efdef07454ebacd7cf27dd3c755ef3d0754cdb2b93ad3c1bfdca",
+      "files": [
+        {
+          "path": "dataset_delta/episode_2.hdf5",
+          "size": 453104380,
+          "sha256": "e4d83bf961c8b5394d038453a81ad8990bfb1db732bb0f6adec5f1a21a9f082d"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_20.hdf5.tar.gz",
+      "size": 194913527,
+      "sha256": "1de2b0c4fb06a54d7a4c958f801d32908301aba8419883b8202ee22a9536c2c3",
+      "files": [
+        {
+          "path": "dataset_delta/episode_20.hdf5",
+          "size": 428679260,
+          "sha256": "95843bef85f998c9f2357780ac73f5ebb48a164517f8c025fa0f103ae6e036d9"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_21.hdf5.tar.gz",
+      "size": 180833011,
+      "sha256": "d2bc2056fafe719e31f180f6d1c0ce3ab660e0e4034e413814378e161170d393",
+      "files": [
+        {
+          "path": "dataset_delta/episode_21.hdf5",
+          "size": 400590372,
+          "sha256": "98b2caa26df44ca984838d247d2bbc1b22c4eacc281466a5199768dddf4c456e"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_22.hdf5.tar.gz",
+      "size": 226147527,
+      "sha256": "17363b42465fea49a3258de1408ef6cb7514082614aaf971a7bceee320ddc9ca",
+      "files": [
+        {
+          "path": "dataset_delta/episode_22.hdf5",
+          "size": 503175876,
+          "sha256": "5f9ce0eb2df306fa113bae980466f4f016355cfadb1ab6778d3e2faaec98550e"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_23.hdf5.tar.gz",
+      "size": 225789498,
+      "sha256": "b2f21b1ab1cba5274d3f90ad4d405eb02b7378fe0c74b45652082c91698cf51b",
+      "files": [
+        {
+          "path": "dataset_delta/episode_23.hdf5",
+          "size": 495848340,
+          "sha256": "23f1d29925217923f3df7cf3063b2d549045613f00f82f9ecbb0719e11b48212"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_24.hdf5.tar.gz",
+      "size": 202143214,
+      "sha256": "6e064686b5ee9c067f2a438298f28c4c29b1891f7249befc5629188885d1e59e",
+      "files": [
+        {
+          "path": "dataset_delta/episode_24.hdf5",
+          "size": 445776844,
+          "sha256": "3cc42efb617c4926471e1cea97e22885698eb4b5b69022ca81d235cee852e6b0"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_25.hdf5.tar.gz",
+      "size": 214272289,
+      "sha256": "c6b54e01b87a312bbd99c05af90269f02b2f6754693135e8a003322662542c70",
+      "files": [
+        {
+          "path": "dataset_delta/episode_25.hdf5",
+          "size": 473865732,
+          "sha256": "f9b6373b053dc2e9b508363d8f48df614491b8871be7204a0c6df0222b1ec1af"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_26.hdf5.tar.gz",
+      "size": 205164890,
+      "sha256": "ee29cb2bcdfbeba4732c6ff6e75e82892a51eb6cd4dca2abeb34cf7ae16be48d",
+      "files": [
+        {
+          "path": "dataset_delta/episode_26.hdf5",
+          "size": 451883124,
+          "sha256": "4f4af8fe61441f9904dd8a89e93a491a80f00daae53faf9d978437d568f07a62"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_27.hdf5.tar.gz",
+      "size": 199431792,
+      "sha256": "8cd7c0bc54b009d301df5df5f94bee708bfce7a2523f69858d7c2bef9786d2bb",
+      "files": [
+        {
+          "path": "dataset_delta/episode_27.hdf5",
+          "size": 439670564,
+          "sha256": "cdf236c41ef2053962e99cb9f0133b052460ba2b4416c428c363b8282130cd90"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_28.hdf5.tar.gz",
+      "size": 213516454,
+      "sha256": "58dc64b31827029e4dd6d956f7917c9d272bb175693f76f8c9881143436c1b73",
+      "files": [
+        {
+          "path": "dataset_delta/episode_28.hdf5",
+          "size": 475086988,
+          "sha256": "4e518da47fe0b355d28d75550f1e1a44d036792b94a8a4a63f718733feac03a4"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_29.hdf5.tar.gz",
+      "size": 200729468,
+      "sha256": "14b51d27b5abe9d77b2226bccd17395dfa401f6ebe5e5fdf95f464838b64c0fd",
+      "files": [
+        {
+          "path": "dataset_delta/episode_29.hdf5",
+          "size": 443334332,
+          "sha256": "db6d297a8de8d9d3dd6beb376c749b9c896d164057ee9f5e1996b5436fc78f7a"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_3.hdf5.tar.gz",
+      "size": 243368266,
+      "sha256": "7f976d1eac19068b10faceda339cd6aa3e3b6f3fe05dc7776fbdb27afd31cfe6",
+      "files": [
+        {
+          "path": "dataset_delta/episode_3.hdf5",
+          "size": 543477324,
+          "sha256": "64e7ab4cdb63f91c50e0ee23dabc17b8c1ad6cc6b8252f81b866baac08020b97"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_30.hdf5.tar.gz",
+      "size": 246930745,
+      "sha256": "1b7de2a75476e5fc9563fd998140ff73d104ab5a7d95865b930b55957407e51a",
+      "files": [
+        {
+          "path": "dataset_delta/episode_30.hdf5",
+          "size": 533707276,
+          "sha256": "4d7db5084f93f15af5021f006f42ddf2dd85c9ecb97352210b4313f39b3c1328"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_31.hdf5.tar.gz",
+      "size": 204633975,
+      "sha256": "14ab52e6225d09e3b5aedb3343afc4ce2279ee6b58887387de40737f0ce6f59f",
+      "files": [
+        {
+          "path": "dataset_delta/episode_31.hdf5",
+          "size": 450661868,
+          "sha256": "7d2f6f52f4e83627affd8cdeb08c4002d1c99aadc7c683f54e670c6f27aa6093"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_32.hdf5.tar.gz",
+      "size": 202403309,
+      "sha256": "518b31109778e110d5bef58f3650af57753489a41674c73770e6c2b718613e2d",
+      "files": [
+        {
+          "path": "dataset_delta/episode_32.hdf5",
+          "size": 438449308,
+          "sha256": "a9db58f33de3f2deceed350e7a16bb46be17382d7d941100d7cba55a11ddf7b4"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_33.hdf5.tar.gz",
+      "size": 260218133,
+      "sha256": "56bc5fd0a4eeadd502b3ffdbf1e823b33ef666e20d2479e98b97f02ae5a0ff36",
+      "files": [
+        {
+          "path": "dataset_delta/episode_33.hdf5",
+          "size": 559353652,
+          "sha256": "f69c85013aec04a741732825bc22c20940d460bc91e5dede5f6889070423327a"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_34.hdf5.tar.gz",
+      "size": 226545560,
+      "sha256": "eb5269faaf0a606f0c2f7cfb5523de61582c55bdcf04069da363b325c553959e",
+      "files": [
+        {
+          "path": "dataset_delta/episode_34.hdf5",
+          "size": 498290852,
+          "sha256": "26f54375d076cba2bc931f8e6a34ecf705abdf8025b06c2a2020a00e8b22c464"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_35.hdf5.tar.gz",
+      "size": 234934193,
+      "sha256": "6228c756115a296a96f3a905e815d936fbe33729e8311bbf6c6cbbe0883fe3a6",
+      "files": [
+        {
+          "path": "dataset_delta/episode_35.hdf5",
+          "size": 506839644,
+          "sha256": "4ff68b324ea8acb76f5a94325546ef2a064d47bdb4b92598ac490bd43378d315"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_36.hdf5.tar.gz",
+      "size": 193252912,
+      "sha256": "98ae04b7c1ba82467dbff16e5649dd41edf8a762d047f15edb957812272906ce",
+      "files": [
+        {
+          "path": "dataset_delta/episode_36.hdf5",
+          "size": 423794236,
+          "sha256": "55bb2c0044c14dd66976b01646d27e301dd2f6eb4fe276a3d1cb5e2e181f620b"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_37.hdf5.tar.gz",
+      "size": 223687855,
+      "sha256": "2f87c59ca534a9fd158a0666c0fd59fe8eb3ace0e8f7217541db2cb1353ff549",
+      "files": [
+        {
+          "path": "dataset_delta/episode_37.hdf5",
+          "size": 483635780,
+          "sha256": "a054a0bb4d885114c8d3c7283afd6c425c7a137bb99e98269c3a8ab7a7e06804"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_38.hdf5.tar.gz",
+      "size": 201172792,
+      "sha256": "891160906d0ab52b9077bf91c1cc6fefe0456bd9255cbb5d6fedeb516e696c1a",
+      "files": [
+        {
+          "path": "dataset_delta/episode_38.hdf5",
+          "size": 446998100,
+          "sha256": "23fc500286317e5b5a7becad9fbe178db52059f4869cc06eef4e2b85c883755d"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_39.hdf5.tar.gz",
+      "size": 200018879,
+      "sha256": "ed16f7f36518b328c4343edc25497c01cfddc68ae979f98cf103c2475a900dd8",
+      "files": [
+        {
+          "path": "dataset_delta/episode_39.hdf5",
+          "size": 442113076,
+          "sha256": "f18f81d7b64c18771186505df0705a0416210a016c0e02f96b68b93c6bb69ece"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_4.hdf5.tar.gz",
+      "size": 192994141,
+      "sha256": "9c8ab55181693b28132deab11d7843e6982f115611040479346f3e25d1ba5cb6",
+      "files": [
+        {
+          "path": "dataset_delta/episode_4.hdf5",
+          "size": 428679260,
+          "sha256": "233c2afcfc8a4f4bd1c7c2206f6dced9bec98b63e16d85ef8d53441cb50698d2"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_40.hdf5.tar.gz",
+      "size": 199478642,
+      "sha256": "d09ab317e6d9b2cd286740e3526be9cada939b83ce9d2c57ccafa2789802e74a",
+      "files": [
+        {
+          "path": "dataset_delta/episode_40.hdf5",
+          "size": 437228052,
+          "sha256": "664a5d70511fdf4b326dc218b81d9b0f849b0dbb610090d8307544b3314c9f8c"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_41.hdf5.tar.gz",
+      "size": 204880920,
+      "sha256": "a0a4826193fcddac1d30a9dfa4f8d32abaa787e33750727ed712f129241b33f4",
+      "files": [
+        {
+          "path": "dataset_delta/episode_41.hdf5",
+          "size": 451883124,
+          "sha256": "5fb1b728d0c58fdd56d55818e6999a67ff2acccbb964c922753e67b1a9a73dfd"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_42.hdf5.tar.gz",
+      "size": 195878494,
+      "sha256": "00c98d1ade2ca38e27d0e1b66fad74fcf514c320df6b46a2ac67f45e1dd62723",
+      "files": [
+        {
+          "path": "dataset_delta/episode_42.hdf5",
+          "size": 439670564,
+          "sha256": "be88375042827021373d38a9dc21a40b646ef643f970ec76dc223f01d4ce9667"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_43.hdf5.tar.gz",
+      "size": 201027033,
+      "sha256": "7ca55009dd1f08fcc2e565b8556f09c010c4f1d6f5ff07d24d238c0959ee81ea",
+      "files": [
+        {
+          "path": "dataset_delta/episode_43.hdf5",
+          "size": 442113076,
+          "sha256": "705f568e560832ccc8d1917a9e6646b5fab9b97c03719c2f60683b93e5c59993"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_44.hdf5.tar.gz",
+      "size": 220029769,
+      "sha256": "702e13dbd825ff7adbf918a9c9ed7fc1b5ce3d7002de27d39e1e386a544366a0",
+      "files": [
+        {
+          "path": "dataset_delta/episode_44.hdf5",
+          "size": 472644476,
+          "sha256": "0f8e514eb90fa902720e1d19be1c2f41a5dc196a3d8d6f90f8788d895de4e4ec"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_45.hdf5.tar.gz",
+      "size": 226638777,
+      "sha256": "fcbd610d52bb51a88c991913741b149ab89bee3702fe85e33125d54d50f57611",
+      "files": [
+        {
+          "path": "dataset_delta/episode_45.hdf5",
+          "size": 488520804,
+          "sha256": "aa14308cbaa1e107e71cc455b506558b4abf45c7b31f1af233aa5ec876891e20"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_46.hdf5.tar.gz",
+      "size": 182638024,
+      "sha256": "aff427cf245cf70ee742b4f9f5dbb642810b1f377c7f6b51e7551dd0179a2bcb",
+      "files": [
+        {
+          "path": "dataset_delta/episode_46.hdf5",
+          "size": 392041580,
+          "sha256": "426ee1a00550993a5ce6103cc558bc37e178b8daef1a2b953e80c60ea58123ce"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_47.hdf5.tar.gz",
+      "size": 194587263,
+      "sha256": "b175217c74f28bbd291224a0130de4331cb3b9044a5176973ef4228b12820493",
+      "files": [
+        {
+          "path": "dataset_delta/episode_47.hdf5",
+          "size": 426236748,
+          "sha256": "cb592f6c7db6f898dcf2eb622052855f43867fa5ef6c78e74c74680c0d71a00b"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_48.hdf5.tar.gz",
+      "size": 222087541,
+      "sha256": "cd52b32d887cac5a7cabf0ba9b435d5a886fb737f847f96e85c26ce2e1beb35b",
+      "files": [
+        {
+          "path": "dataset_delta/episode_48.hdf5",
+          "size": 472644476,
+          "sha256": "52e19fce039bb27e094b7db8841f3afb783a027564e7291ab82e0114bae53c5f"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_49.hdf5.tar.gz",
+      "size": 192574092,
+      "sha256": "abfe323b2a55fdb1b48956650ce7964a0828d2fc99e0cda7ab99893b02ecdf79",
+      "files": [
+        {
+          "path": "dataset_delta/episode_49.hdf5",
+          "size": 416466700,
+          "sha256": "3bc02a95d31df75142adda0b50a188b5904a7a5249afca19999ff02db14a49f2"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_5.hdf5.tar.gz",
+      "size": 201439723,
+      "sha256": "2d634847409b21b5bcdcb8cfbfb1523bc134931b8d541e1b44b4db523862bdb9",
+      "files": [
+        {
+          "path": "dataset_delta/episode_5.hdf5",
+          "size": 446998100,
+          "sha256": "f32a73da8e0cf1ef9deed67c24fbcb43d21f396ce1342ffa21ae7fec796fbb49"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_50.hdf5.tar.gz",
+      "size": 197055959,
+      "sha256": "cc0a8c395bc1107c264b7e55eb79e0e0f00932065b7a8f9a6073a291b4d667b1",
+      "files": [
+        {
+          "path": "dataset_delta/episode_50.hdf5",
+          "size": 428679260,
+          "sha256": "976c540535e6f5f1244937ff84de7afdf883a73f79bdfe09c601786fa2d0c4dd"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_51.hdf5.tar.gz",
+      "size": 148951041,
+      "sha256": "dff5c0b402a0c6b74189d60f274aaba74d16652134157f51b56258b1fa9ebd6f",
+      "files": [
+        {
+          "path": "dataset_delta/episode_51.hdf5",
+          "size": 324872500,
+          "sha256": "b5e599ae56bf933cabae81ba6fd9f5e89eefbef85c34a703106ff6c6c80b8b29"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_52.hdf5.tar.gz",
+      "size": 174523098,
+      "sha256": "345ed931483bf87070b0a82f1a61c85dc0cda2770df362dad169d1856cee46a5",
+      "files": [
+        {
+          "path": "dataset_delta/episode_52.hdf5",
+          "size": 373722740,
+          "sha256": "a916cee723d0260e3d92c6bf3753d12413d8f810f6907f3cbcfc52217b6fd2eb"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_53.hdf5.tar.gz",
+      "size": 132920799,
+      "sha256": "c807dc554808f2afc9d00624576c10f8f64838254352b9a513274a0f39afdab1",
+      "files": [
+        {
+          "path": "dataset_delta/episode_53.hdf5",
+          "size": 289456228,
+          "sha256": "3f89b521c14ee655b8f2937c4277b4ed01cbec6cb29284f11e45ed14aaeb2553"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_54.hdf5.tar.gz",
+      "size": 174380152,
+      "sha256": "5c4380d0a0b83c447bf28203a1c5aeb4a50ce0ae34dd12ffd39e829b94bcd4e5",
+      "files": [
+        {
+          "path": "dataset_delta/episode_54.hdf5",
+          "size": 385935300,
+          "sha256": "b3b6b80e5b055ffa03c85bd4d8969c7a8c2bd10ce37f8a050c0bbc5be69ce238"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_55.hdf5.tar.gz",
+      "size": 160679889,
+      "sha256": "4f831f5bbc181ce81d76a3cbaa354fea63a329db7572125e09b88e94c629dede",
+      "files": [
+        {
+          "path": "dataset_delta/episode_55.hdf5",
+          "size": 352961388,
+          "sha256": "987fa06b10d8878087339e3ff327323f40d8a945909855be3c455f3c0af0c985"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_56.hdf5.tar.gz",
+      "size": 176225660,
+      "sha256": "9361cd26831c7d83ff799083284e45f4fba4653263282f99d6049d86ee81ae73",
+      "files": [
+        {
+          "path": "dataset_delta/episode_56.hdf5",
+          "size": 390820324,
+          "sha256": "dfc7c009a2a15292475a698ca5b673400fdd0ba087131dba824a99525d5bf756"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_57.hdf5.tar.gz",
+      "size": 171244854,
+      "sha256": "d670d33541da5db7ec7e207f3ad86e604db8a76b31108b5dbc6766ae6b0b1727",
+      "files": [
+        {
+          "path": "dataset_delta/episode_57.hdf5",
+          "size": 374943996,
+          "sha256": "2849069a66397b6fe1d8882657d491dde530226315a1c0f7deebfd2b8bf0b321"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_58.hdf5.tar.gz",
+      "size": 183392576,
+      "sha256": "4ce56db10bea5716e8a63630c66ea8e004cd7959cb1a3444489ef8db30ac4e99",
+      "files": [
+        {
+          "path": "dataset_delta/episode_58.hdf5",
+          "size": 399369116,
+          "sha256": "57e16590a37248c2904470ec544a29d04437f37c6165484c7bccac6af5204e23"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_59.hdf5.tar.gz",
+      "size": 186574604,
+      "sha256": "0622af71c43469f0f913fcd099e022fdbc558232ee8b505df77734492fa832a9",
+      "files": [
+        {
+          "path": "dataset_delta/episode_59.hdf5",
+          "size": 415245444,
+          "sha256": "0d710f33df2367196462e43b947768ba50902a670d7546ab2bf418444fcb68be"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_6.hdf5.tar.gz",
+      "size": 225448715,
+      "sha256": "3deb246ffbe344e650349beba29fa0400bc5e2698aec74d59d6efa37d669f792",
+      "files": [
+        {
+          "path": "dataset_delta/episode_6.hdf5",
+          "size": 500733364,
+          "sha256": "4adbb1fccc160923d8d91771c109118be4de0cc76be56e98981325af1dbacfbd"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_7.hdf5.tar.gz",
+      "size": 218550303,
+      "sha256": "c7018ee7cdca80948ff1d71d243caafdfb4ee5680d0150044299fc4ea4e0c135",
+      "files": [
+        {
+          "path": "dataset_delta/episode_7.hdf5",
+          "size": 478750756,
+          "sha256": "d81cfddd7eb43f0b2f64c60dc71fb47d04c280ba0e14ba657089590abe5cfe29"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_8.hdf5.tar.gz",
+      "size": 199385047,
+      "sha256": "c0bfb76422e2620992d8eea59feb1e1d6a36ec1a7f00b24bbbe4e48264a0c4c9",
+      "files": [
+        {
+          "path": "dataset_delta/episode_8.hdf5",
+          "size": 432343028,
+          "sha256": "1b5338d92328809855a3a0ee26b5d2d59c50188e0de52591059c12c2451281af"
+        }
+      ]
+    },
+    {
+      "archive": "dataset_delta-episode_9.hdf5.tar.gz",
+      "size": 200748083,
+      "sha256": "a0b3da8bd82a241c98c9ab66223256c0a1cc805075d49ebab2d64951254ce2ab",
+      "files": [
+        {
+          "path": "dataset_delta/episode_9.hdf5",
+          "size": 442113076,
+          "sha256": "0c87ebdf03b4789d7ba6d7c0635b4435182ce46c8c7ee9c921ae3ce30ed971c6"
+        }
+      ]
+    }
+  ]
+}

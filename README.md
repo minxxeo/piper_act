@@ -774,7 +774,7 @@ export PIPER_ACT_CKPT_DIR="$PWD/checkpoints/piper_wrist_act"
 
 The trained Absolute policy was run on the real Follower robot for the pen pick-and-place task. The video records the robot motion alongside the wrist camera view during inference.
 
-https://github.com/user-attachments/assets/d5a3270c-09b0-42d3-bbde-2bff8cdbf41b
+https://github.com/user-attachments/assets/c8b754a7-529a-4dfd-84cd-3d85e3552747
 
 [Joint Space + Absolute Action](<joint space+absolute action.mp4>)
 
@@ -853,7 +853,7 @@ export PIPER_DELTA_CKPT_DIR="$PWD/checkpoints_delta/piper_wrist_delta_follower_c
 
 The trained Delta policy was run on the same pen pick-and-place task, reconstructing absolute joint targets from the fixed chunk-start Follower state. The video records the robot motion alongside the wrist camera view during inference.
 
-https://github.com/user-attachments/assets/372a3b72-929a-4829-954c-799eb9124828
+https://github.com/user-attachments/assets/9f9006a0-1d02-4c22-903a-bbee0a0ffede
 
 [Joint Space + Delta Action](<joint space+delta action.mp4>)
 

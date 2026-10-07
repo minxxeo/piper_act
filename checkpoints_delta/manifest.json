@@ -1,0 +1,43 @@
+{
+  "folder": "checkpoints_delta",
+  "release": "artifacts-v1",
+  "archives": [
+    {
+      "archive": "piper_act_delta_checkpoints.tar.gz",
+      "size": 311134232,
+      "sha256": "e1e741c0fe56b7215c5b6dd26204d8f9d88ba07297f5b4b1c2c82669eb0223bb",
+      "files": [
+        {
+          "path": "checkpoints_delta/action_spec.json",
+          "size": 781,
+          "sha256": "6fae0e55199da6f4e08e6874322c65293c0a540837eeb0e217b8040d0acb3cc4"
+        },
+        {
+          "path": "checkpoints_delta/best.ckpt",
+          "size": 335850503,
+          "sha256": "8564d8b8d83e16ef44c2b73ccf268e9373b6d59491afabb03facb32b654d9b85"
+        },
+        {
+          "path": "checkpoints_delta/best_checkpoint.json",
+          "size": 126,
+          "sha256": "43780274c0c958638418c642fd4c4c1913a039d79f4b943257688b97f0c4d67f"
+        },
+        {
+          "path": "checkpoints_delta/dataset_split.json",
+          "size": 677,
+          "sha256": "bad3de720792a3afa1e1d87617105c4411dd2b1cb3aec28a60a20bee02ad5b6a"
+        },
+        {
+          "path": "checkpoints_delta/dataset_stats.pkl",
+          "size": 10996,
+          "sha256": "7ecfefbd289ce25e47a64432299c010fc06fdecebacb5340664872b68bb09ac7"
+        },
+        {
+          "path": "checkpoints_delta/training_config.json",
+          "size": 2478,
+          "sha256": "1193c8f0c83f3b3d40a8ac550f9c74ae0f4bb0d11dd2a8264ca7522a0d9d7c4f"
+        }
+      ]
+    }
+  ]
+}

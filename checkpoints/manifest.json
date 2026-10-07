@@ -1,0 +1,33 @@
+{
+  "folder": "checkpoints",
+  "release": "artifacts-v1",
+  "archives": [
+    {
+      "archive": "piper_act_absolute_checkpoints.tar.gz",
+      "size": 311153297,
+      "sha256": "92f2e2764d96225c089550a394529d25839ab80f7eccf2b3a1e6d8313c5df195",
+      "files": [
+        {
+          "path": "checkpoints/best.ckpt",
+          "size": 335850503,
+          "sha256": "ff9e0fcbee6fba4863ed7292c4b0d7588524c8c8db214b319cb055fdb48ec23a"
+        },
+        {
+          "path": "checkpoints/best_checkpoint.json",
+          "size": 126,
+          "sha256": "8a6ab7a36d7c068aeef650cff131386f3dc475c6674035de8c8f2fa485b9c36b"
+        },
+        {
+          "path": "checkpoints/dataset_stats.pkl",
+          "size": 10170,
+          "sha256": "fafb8bcb2273f49768b4a6ab8cc0b3cba12ca4e8316869c3638412a343986f77"
+        },
+        {
+          "path": "checkpoints/training_config.json",
+          "size": 1072,
+          "sha256": "b0d42af91fdc9ee5c1581f39aedaa7d3692c358a75903d75dcd4ef1b13652e48"
+        }
+      ]
+    }
+  ]
+}
