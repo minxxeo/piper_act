@@ -1,0 +1,6 @@
+{
+  "epoch_index": 1526,
+  "completed_epochs": 1527,
+  "validation_loss": 0.08475344628095627,
+  "criterion": "L1 + 10 * KL"
+}

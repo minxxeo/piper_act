@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-09-30T10:22:39.501218+00:00",
+  "definition": {
+    "schema_version": 1,
+    "action_representation": "joint_delta",
+    "delta_reference": "same_timestep_observed_qpos",
+    "delta_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "gripper_mode": "absolute",
+    "action_time_offset_frames": 0,
+    "arm_formula": "delta[t, :6] = source_action[t, :6] - qpos[t, :6]",
+    "gripper_formula": "output[t, 6] = source_action[t, 6]",
+    "chunk_formula": "target[k] = converted_action[t + k], k = 0..chunk_size-1",
+    "units": "Original dataset units; no time division, angle wrapping, or unit conversion",
+    "execution_reference": "Fresh measured qpos at each execution step, not chunk-start qpos"
+  },
+  "original_code_sha256_check": "passed: 53 files",
+  "original_dataset_sha256_check": "passed: 60 files",
+  "all_delta_labels_and_roundtrip": "passed: 21885 frames, 60 episodes",
+  "source_observations_and_timestamps": "all numeric values unchanged; first/middle/last image per episode equal",
+  "unit_tests": {
+    "passed": 3
+  },
+  "split_matches_absolute": true,
+  "train_count": 50,
+  "validation_count": 10,
+  "gpu_smoke_epochs": 2,
+  "smoke_checkpoint": "/home/rise-racing/piper_act/checkpoints_delta/setup_smoke_delta",
+  "smoke_best": {
+    "epoch_index": 1,
+    "completed_epochs": 2,
+    "validation_loss": 8.662698745727539,
+    "criterion": "L1 + 10 * KL"
+  },
+  "inference_without_ground_truth_actions": {
+    "shape": [
+      1,
+      50,
+      7
+    ],
+    "all_finite": true
+  },
+  "action_mean": [
+    -0.0002714264264795929,
+    0.002823795424774289,
+    -0.00046783240395598114,
+    -0.0019197356887161732,
+    0.00393707538023591,
+    0.00026850978611037135,
+    0.008956437930464745
+  ],
+  "action_std_with_floor": [
+    0.009999999776482582,
+    0.022599972784519196,
+    0.017926780506968498,
+    0.009999999776482582,
+    0.01982000097632408,
+    0.009999999776482582,
+    0.017084944993257523
+  ],
+  "full_5000_epoch_training_started": false,
+  "hardware_commands_sent": false
+}

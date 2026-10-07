@@ -1,0 +1,81 @@
+{
+  "args": {
+    "eval": false,
+    "onscreen_render": false,
+    "ckpt_dir": "../checkpoints_delta/piper_wrist_delta_follower_chunk_act",
+    "policy_class": "ACT",
+    "task_name": "piper_wrist_delta_follower",
+    "batch_size": 8,
+    "seed": 0,
+    "num_epochs": 5000,
+    "lr": 1e-05,
+    "kl_weight": 10,
+    "chunk_size": 50,
+    "hidden_dim": 512,
+    "dim_feedforward": 3200,
+    "temporal_agg": false
+  },
+  "config": {
+    "num_epochs": 5000,
+    "batch_size_train": 8,
+    "batch_size_val": 8,
+    "optimizer": "AdamW",
+    "ckpt_dir": "../checkpoints_delta/piper_wrist_delta_follower_chunk_act",
+    "episode_len": 502,
+    "state_dim": 7,
+    "lr": 1e-05,
+    "policy_class": "ACT",
+    "onscreen_render": false,
+    "policy_config": {
+      "lr": 1e-05,
+      "weight_decay": 0.0001,
+      "state_dim": 7,
+      "num_queries": 50,
+      "kl_weight": 10,
+      "hidden_dim": 512,
+      "dim_feedforward": 3200,
+      "lr_backbone": 1e-05,
+      "backbone": "resnet18",
+      "enc_layers": 4,
+      "dec_layers": 7,
+      "nheads": 8,
+      "camera_names": [
+        "wrist"
+      ]
+    },
+    "task_name": "piper_wrist_delta_follower",
+    "seed": 0,
+    "temporal_agg": false,
+    "camera_names": [
+      "wrist"
+    ],
+    "action_spec": {
+      "schema_version": 4,
+      "action_representation": "follower_chunk_start_delta",
+      "stored_action_representation": "next_follower_qpos_absolute",
+      "action_source": "observations/qpos",
+      "absolute_action_formula": "action[t] = follower_qpos[t + 1]",
+      "delta_reference": "fixed_chunk_start_follower_qpos",
+      "delta_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "gripper_mode": "delta",
+      "action_time_offset_frames": 1,
+      "chunk_formula": "delta[t, k] = follower_qpos[t + k + 1] - follower_qpos[t]",
+      "execution_formula": "absolute_target[k] = chunk_start_follower_qpos + predicted_delta[k]",
+      "tail_policy": "Exclude final observation as a start; mask unavailable future targets",
+      "units": "Original dataset units; no time division or unit conversion"
+    },
+    "normalization_std_floor": 0.01,
+    "normalization_source": "All valid training start/horizon pairs; population std; no padding",
+    "checkpoint_retention": "best, latest periodic (every 100 epochs), final",
+    "model_initialization": "Fresh ACT weights with ImageNet-pretrained ResNet18; no Absolute policy loaded",
+    "real_robot": true
+  }
+}

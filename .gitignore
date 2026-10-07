@@ -1,0 +1,24 @@
+# Local data and generated artifacts
+/dataset/*.hdf5
+/dataset_delta/*.hdf5
+/logs*
+*.ckpt
+/downloaded_artifacts/
+*.hdf5
+*.log
+*.pyc
+__pycache__/
+*.egg-info/
+/act-training-settings.json
+/act-install*.log
+/act-smoke.log
+/inference_diagnostic.csv
+# Historical generated analysis outputs; keep analysis source and findings.
+/analysis/**/*.json
+/analysis/**/*.jsonl
+/analysis/**/*.csv
+/analysis/**/*.jpg
+/analysis/**/*.png
+
+# Local inference recordings
+/inference_videos/

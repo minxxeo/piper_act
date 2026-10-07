@@ -1,0 +1,12 @@
+# Install CUDA-compatible torch/torchvision separately.
+numpy==1.24.4; python_version < "3.9"
+numpy==1.26.4; python_version >= "3.9"
+pyyaml
+opencv-python==4.11.0.86
+matplotlib
+einops
+packaging
+h5py
+ipython
+tqdm
+setuptools<81

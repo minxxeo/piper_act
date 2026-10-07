@@ -1,0 +1,23 @@
+{
+  "schema_version": 4,
+  "action_representation": "follower_chunk_start_delta",
+  "stored_action_representation": "next_follower_qpos_absolute",
+  "action_source": "observations/qpos",
+  "absolute_action_formula": "action[t] = follower_qpos[t + 1]",
+  "delta_reference": "fixed_chunk_start_follower_qpos",
+  "delta_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "gripper_mode": "delta",
+  "action_time_offset_frames": 1,
+  "chunk_formula": "delta[t, k] = follower_qpos[t + k + 1] - follower_qpos[t]",
+  "execution_formula": "absolute_target[k] = chunk_start_follower_qpos + predicted_delta[k]",
+  "tail_policy": "Exclude final observation as a start; mask unavailable future targets",
+  "units": "Original dataset units; no time division or unit conversion"
+}

@@ -1,0 +1,50 @@
+{
+  "args": {
+    "eval": false,
+    "onscreen_render": false,
+    "ckpt_dir": "../checkpoints/piper_wrist_act",
+    "policy_class": "ACT",
+    "task_name": "piper_wrist",
+    "batch_size": 8,
+    "seed": 0,
+    "num_epochs": 5000,
+    "lr": 1e-05,
+    "kl_weight": 10,
+    "chunk_size": 50,
+    "hidden_dim": 512,
+    "dim_feedforward": 3200,
+    "temporal_agg": false
+  },
+  "config": {
+    "num_epochs": 5000,
+    "ckpt_dir": "../checkpoints/piper_wrist_act",
+    "episode_len": 502,
+    "state_dim": 7,
+    "lr": 1e-05,
+    "policy_class": "ACT",
+    "onscreen_render": false,
+    "policy_config": {
+      "lr": 1e-05,
+      "state_dim": 7,
+      "num_queries": 50,
+      "kl_weight": 10,
+      "hidden_dim": 512,
+      "dim_feedforward": 3200,
+      "lr_backbone": 1e-05,
+      "backbone": "resnet18",
+      "enc_layers": 4,
+      "dec_layers": 7,
+      "nheads": 8,
+      "camera_names": [
+        "wrist"
+      ]
+    },
+    "task_name": "piper_wrist",
+    "seed": 0,
+    "temporal_agg": false,
+    "camera_names": [
+      "wrist"
+    ],
+    "real_robot": true
+  }
+}
