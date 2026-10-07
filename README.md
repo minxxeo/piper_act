@@ -75,9 +75,10 @@ pip3 install .
 #### ROS 2 Workspace
 
 ```bash
+# Run from this project root.
+export PIPER_PROJECT_ROOT="$PWD"
 mkdir -p ~/agx_arm_ws/src
-cd ~/agx_arm_ws/src
-git clone -b ros2 --recurse-submodules https://github.com/agilexrobotics/agx_arm_ros.git
+cp -a "$PIPER_PROJECT_ROOT/agx_arm_ws/src/agx_arm_ros" ~/agx_arm_ws/src/
 ```
 
 Run the repository's dependency installation script:
@@ -133,7 +134,7 @@ channel = "can0"
 
 The ROS 2 driver source used in this project is included at [`agx_arm_ws/src/agx_arm_ros`](agx_arm_ws/src/agx_arm_ros), with its URDF assets and local modifications. This preserves its original workspace layout. The source is based on upstream commit `b9ad14de2a6eb818a2d206fbd1adba48343662f7` and includes Foxy compatibility, Leader–Follower control, gripper command handling, and helper nodes. Copy the included driver into your ROS workspace before building.
 
-Some launch and MoveIt APIs used by the driver are unavailable in Foxy. Apply the changes below relative to:
+Some launch and MoveIt APIs used by the upstream driver are unavailable in Foxy. The following changes are already included in the bundled source and are documented relative to:
 
 ```text
 ~/agx_arm_ws/src/agx_arm_ros
